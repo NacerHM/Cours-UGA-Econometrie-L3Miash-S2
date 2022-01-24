@@ -1,0 +1,133 @@
+
+\input{../Preambule}
+
+\usepackage{tikz}
+
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\renewcommand{\subsection{mark}[1]{\markright{#1}{}}
+\fancyhead{}
+\fancyfoot{} 
+%\fancyhead[LE,LO]{\tiny{\thepage}}
+\fancyhead[C]{\small\textsc{Économétrie, L3 Miash, S2}}
+%fancyhead[CE,CO]{\tiny{\rightmark}}
+\fancyhead[L]{\small\textsc{UGA, FEG}}
+\fancyfoot[C]{\small{\thepage}}
+%\fancyfoot[R]{\small \textcopyright \ \  \small\textsc{Michal W. Urdanivia}}
+\fancyhead[R]{ \small\textsc{M. Urdanivia}}
+%\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+%\pagenumbering{roman}
+
+
+\begin{document} 
+\usetikzlibrary{positioning}
+\usetikzlibrary{snakes}
+\usetikzlibrary{calc}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{shapes}
+%\tikzset{block/.style={draw, rectangle, fill=gray!20, text centered, minimum height = 3em,text width=7em}}
+%\tikzset{empty/.style={draw, rectangle, fill=none, text centered, minimum height = 3em,text width=7em}}
+%\tikzset{line/.style={draw, -latex'}}
+%\onehalfspace
+
+\begin{titlepage}
+\centering
+	%\includegraphics[width=0.15\textwidth]{logoUGA2020.pdf}\par\vspace{1cm}
+	{\scshape\Large \textsc{Économétrie: S2, UGA, L3 Miash}\par}
+	\vspace{1cm}
+	%{\scshape\large \textsc{Extremum Estimators(1)}\par}
+	%\vspace{1cm}
+	{\Large\bfseries \textsc{Syllabus} \par}
+    \vspace{1cm}   
+	%{\Large\bfseries \textsc{1: Analyse non asymptotique des Moindres Carrés} \par}
+	%\vspace{1cm}
+	{(\textsc{Cette version: \today})\par}
+	\vspace{1cm}
+	{\large \textsc{Michal Urdanivia}
+	\footnote{Contact:  
+	\href{mailto:michal.wong-urdanivia@univ-grenoble-alpes.fr}{michal.wong-urdanivia@univ-grenoble-alpes.fr}, 
+	 Université de Grenoble Alpes,  Faculté d'\'Economie, GAEL.}\par}
+	%\vfill
+	%supervised by\par
+	%Dr.~Mark \textsc{Brown}
+%\vfill
+% Bottom of the page
+	
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Objectifs}
+ Ce cours poursuit l'enseignement d'économétrie du premier semestre. Notre point de départ est le modèle de 
+ régression linéaire étudié au premier semestre dont nous commençons par récapituler les principaux résultats 
+ et méthodes d'inférence non asymptotiques pour ensuite étudier ses propriétés et méthodes d'inférence
+ dans un cadre asymptotique. Cette partie termine par considérer quelques extensions. 
+ Ces extensions concernent le traitement du problème d'endogénéité des régresseurs dans un modèle linéaire, 
+ qui est au cœur de la microéconométrie moderne. 
+ Le cours présente et approfondit la méthode des variables instrumentales, en traitant de l'hétéroscédasticité et des instruments faibles. 
+ Il introduit aussi l'utilisation des panels, y compris lorsque la dynamique du modèle est complexe. 
+ En termes méthodologiques, on étudiera  la méthode des moments généralisés.
+ Enfin en fonction de notre progression dans le cours, nous introduirons quelques  modèles courants pour variables dépendantes 
+ "limitées". Il s'agit de modèles où les variables dépendantes ne peuvent pas être supposées continues étant discrètes(indicatrices de chômage, de remboursement 
+ou censurées comme la consommation, qui prend nécessairement des valeurs positives mais potentiellement nulle. 
+Les problèmes de sélection (offre de travail, sélection endogène d'échantillon) sont également abordés. 
+Dans le cadre de ces modèles non-linéaires, la méthode d'estimation utilisée est principalement 
+le maximum de vraisemblance.
+
+\section{Plan}
+ 
+\begin{enumerate}
+ \item Régression linéaire:  récapitulatif du S1, et résultats non asymptotiques.
+ \item Régression linéaire: résultats asymptotiques.
+ \item Endogénéité et variables instrumentales: estimateur des 2MC, tests d'Hausman et de Sargan.
+Instruments en présence d'hétéroscédasticité, instruments faibles.
+\item Modèles de panels statiques: effets fixes et effets aléatoires, estimateurs de différences premières 
+et estimateurs "within". Inférence efficace en présence d'autocorrélation.
+\item Panels dynamiques et exogénéité faible.
+\item Introduction aux modèles pour variables dépendantes limitées.
+\end{enumerate}
+
+
+\section{Bibliographie}
+
+Les notes écrites relatives au différents thèmes du cours seront mises à votre disposition sur le site/dépôt du cours(voir plus bas).
+Elles ne suivent pas un ouvrage de référence mais vous pouvez les compléter avec  notamment:
+\begin{enumerate}[-]
+\item \cite{Amemiya1985}.
+\item \cite{ap2009}.
+\item \cite{Hansen2017}.
+\item \cite{Wooldridge2010}.
+\end{enumerate}
+Des références supplémentaires seront parfois données dans le cadre des différents points traités.
+En outre parmi les références vous trouverez aussi un certain nombre d'articles qui nous 
+permettront d'illustrer certains points du cours. 
+
+
+\section{Travail individuel}
+Outre des exercices analytiques, il y aura des travaux d'application(empirique) des méthodes 
+vues en cours(notamment dans les séances de TD/TP). Les correction se feront avec le langage 
+Python\footnote{Notez que ce cours n'est pas un cours de Python. Vous aurez donc à vous former sur un certains nombre de points 
+de façon autonome si vous souhaitez suivre les corrections.} mais vous pouvez utiliser 
+le langage/logiciel de votre choix(R, Matlab, Julia, C++, \ldots). Ces applications concerneront souvent 
+des articles de recherche et vous aurez à les lire et en faire des présentations et/où synthèses.
+
+\section{Matériel du cours}
+
+Les notes écrites, les codes Python, exercices, etc, se trouveront sur le dépôt Git suivant:
+
+\url{https://github.com/MWUrda/Cours-UGA-Econometrie-L3Miash-S2}.
+
+Moodle ne sera utilisé que pour vos retours de devoirs, et des "annonces" diverses sur le cours(e.g., dates de retour pour les devoirs, etc)
+\bibliographystyle{jpe}
+\bibliography{../Biblio.bib}
+ \end{document}
