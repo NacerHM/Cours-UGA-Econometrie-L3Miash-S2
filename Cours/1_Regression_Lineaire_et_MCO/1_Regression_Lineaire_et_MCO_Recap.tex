@@ -1,7 +1,7 @@
 \input{../Preambule}
 
 \usepackage{tikz}
-
+\usepackage{enumitem}
 
 
 \usepackage{fancyhdr}
@@ -42,7 +42,7 @@
 	\vspace{1cm}
 	%{\scshape\large \textsc{Extremum Estimators(1)}\par}
 	%\vspace{1cm}
-	{\Large\bfseries \textsc{1: Régression Linéaire} \par}
+	{\Large\bfseries \textsc{1: Régression Linéaire et Moindres Carrés} \par}
     \vspace{1cm}   
 	{\Large\bfseries \textsc{Récapitulatif, et résultats non asymptotiques} \par}
 	\vspace{1cm}
@@ -75,7 +75,7 @@
 \section{Estimateur des moindres carrés dans le modèle de régression linéaire}
 \subsection{Définitions}
 Une question courante en économétrie concerne l'étude de l'effet d'un groupe de variables $X \in \mathcal{X}\subseteq \R^K$, traditionnellement appelées \emph{régresseurs}, sur une autre variable $Y\in \mathcal{Y}\subseteq\R$ traditionnellement  appelée \emph{variable dépendante}.  
-On dispose de données  sur $(Y, X)$, à savoir un \emph{échantillon} de taille $n$,  $\{(Y_i, X_i)\}_{i\in\{1, \ldots, n\}}$, où $Y_i$ est une variable aléatoire et $X_i$ est un vecteur $K\times 1$(de variables aléatoires), i.e.,
+On dispose de données  sur $(Y, X)$, à savoir un \emph{échantillon} de taille $n$,  $\{(Y_i, X_i)\}_{i=1}^n$, où $Y_i$ est une variable aléatoire et $X_i$ est un vecteur $K\times 1$(de variables aléatoires), i.e.,
 \begin{align*}
 X_i = 
 \begin{pmatrix}
@@ -86,7 +86,7 @@ X_{iK}
 \end{pmatrix}
 \end{align*}
 Une paire $(Y_i, X_i)$ est appelée observation(sous entendu de $(Y, X)$). Le vecteur $X_i$ contient les valeurs des $K$ variables pour l'observation $i$.
-Pour des \emph{données en coupe}\footnote{Rappelons que des données en coupe sont des données où chaque observation ne concerne qu'une seule unité d'observation. Par exemple s'il s'agit d'observations sur des individus l'observation $i$ concernera un individu différent de l'observation $j$.} il est souvent supposé que toutes les observations sont tirées indépendamment les unes des autres à partir d'une même distribution. On dit dans ce cas que l'échantillon d'observations $\{(Y_i, X_i)\}_{i\in\{1, \ldots, n\}}$ est un échantillon aléatoire ou de manière équivalente que les observations sont identiquement et indépendamment distribuées(i.i.d. en abrégé). Remarquons que l'hypothèse d'observations i.i.d. ne signifie pas que $Y_i$ et $X_i$ soient indépendants, mais plutôt que l'observation $(Y_i, X_i)$ est indépendante de toute autre observation $(Y_j, X_j)$ pour $i\neq j$, n'excluant donc pas que $Y_i$ et $X_i$ puissent être liés\\\
+Pour des \emph{données en coupe}\footnote{Rappelons que des données en coupe sont des données où chaque observation ne concerne qu'une seule unité d'observation. Par exemple s'il s'agit d'observations sur des individus l'observation $i$ concernera un individu différent de l'observation $j$.} il est souvent supposé que toutes les observations sont tirées indépendamment les unes des autres à partir d'une même distribution. On dit dans ce cas que l'échantillon d'observations $\{(Y_i, X_i)\}_{i=1}^n$ est un échantillon aléatoire ou de manière équivalente que les observations sont identiquement et indépendamment distribuées(i.i.d. en abrégé). Remarquons que l'hypothèse d'observations i.i.d. ne signifie pas que $Y_i$ et $X_i$ soient indépendants, mais plutôt que l'observation $(Y_i, X_i)$ est indépendante de toute autre observation $(Y_j, X_j)$ pour $i\neq j$, n'excluant donc pas que $Y_i$ et $X_i$ puissent être liés\\\
 L'outil auquel nous allons nous intéresser dans ce cours pour étudier la relation entre la variable dépendante et les régresseurs est l'espérance conditionnelle de $Y_i$ sachant $X_i$, $\Exp(Y_i| X_i)$, laquelle vue comme une fonction de $X_i$ est appelée \emph{fonction de régression}(ou plus succinctement régression) de $Y_i$ sur $X_i$\
 La différence entre $Y_i$ et son espérance conditionnelle est appelée \emph{terme d'erreur}(ou plus succinctement \emph{erreur}),
 \begin{align}
@@ -111,7 +111,7 @@ où,
  \beta_K
  \end{pmatrix}
 \end{align*}
-est un vecteur de $K$ paramètres constants. La linéarité de $\Exp(Y_i|X_i)$ peut être justifiée, si par exemple, la distribution des observations $\{(Y_i, X_i)\}_{i\in\{1, \ldots, n\}}$ est une loi normale multivariée. Rappelons néanmoins que lorsque $\Exp(Y_i|X_i)$ n'est pas linéaire il est possible de caractériser $\beta$ de manière à ce que \eqref{eq2} constitue la \emph{meilleure prédiction linéaire} de la variable dépendante par les régresseurs. Notons aussi que comme
+est un vecteur de $K$ paramètres constants. La linéarité de $\Exp(Y_i|X_i)$ peut être justifiée, si par exemple, la distribution des observations $\{(Y_i, X_i)\}_{i=1}^n$ est une loi normale multivariée. Rappelons néanmoins que lorsque $\Exp(Y_i|X_i)$ n'est pas linéaire il est possible de caractériser $\beta$ de manière à ce que \eqref{eq2} constitue la \emph{meilleure prédiction linéaire} de la variable dépendante par les régresseurs. Notons aussi que comme
 \begin{align*}
 \beta_k = \frac{\partial \Exp(Y_i|X_i)}{\partial X_{ik}}, \ \ k=1,2,...,K.
 \end{align*}
@@ -126,7 +126,7 @@ où par définition de \eqref{eq1}
 \Exp(U_i|X_i) = 0
 \label{eq4}
 \end{align}
-Ceci implique que les régresseurs ne contiennent aucune information quant à l'écart entre $Y_i$ et sont espérance conditionnelle. En outre, \emph{la loi des conditionnement successifs} implique que les erreurs ont une espérance nulle: $\Exp(U_i) = 0$. Notons aussi qu'avec des observations i.i.d. les erreurs sont aussi i.i.d\\\
+Ceci implique que les régresseurs ne contiennent aucune information quant à l'écart entre $Y_i$ et sont espérance conditionnelle. En outre, la \emph{règle des espérances itérées} implique que les erreurs ont une espérance nulle: $\Exp(U_i) = 0$. Notons aussi qu'avec des observations i.i.d. les erreurs sont aussi i.i.d\\\
 Une hypothèse fréquente sur les erreurs consiste à supposer qu'ils sont \emph{homoscédastiques}(on parle d'hypothèse d'homoscédasticité), par quoi on entend que leur variance est indépendante des régresseurs, et la même pour toutes les observations,
 \begin{align*}
 \Var(U_i|X_i) = \sigma^2
@@ -204,7 +204,7 @@ Dans le cas de régresseur fixes, plutôt que \eqref{cond5} il sera supposé que
 \end{align*}
 Remarquons qu'étant donné que les covariances dans \eqref{cond5} sont toutes nulles,  \eqref{cond5} implique l'indépendance des erreurs. Les hypothèses \eqref{cond1}-\eqref{cond4} seules, n'impliquent pas l'indépendance entre les observations. En fait, plusieurs résultats importants n'exigent pas d'observations indépendantes. Néanmoins, nous supposerons parfois l'indépendance  sans la normalité.
 \begin{condition}
-Les observations $\{(Y_i, X_i)\}_{i\in\{1, \ldots, n\}}$ sont i.i.d.
+Les observations $\{(Y_i, X_i)\}_{i=1}^n$ sont i.i.d.
 \label{cond6}
 \end{condition}
 Dans le cas de régresseurs fixes cette hypothèse peut être remplacé par celle d'erreurs, $U_1, ..., U_n$, i.i.d\
@@ -219,7 +219,7 @@ L'hypothèse \eqref{cond4} exige que le colonnes de $\boldX$ soient linéairemen
 Souvent, une des colonnes de $\boldX$(souvent la première) est le vecteur unitaire et le paramètre qui lui est associé est appelé \emph{constante}. La constante du modèle donne la valeur moyenne de la variable dépendante lorsque tous les régresseurs sont égaux à zéro.
 
 \subsection{Estimation par la méthode des moments}
-Nous allons à présent construire des estimateurs des paramètres $\beta$ et $\sigma^2$. Rappelons qu'un estimateur est toute fonction des observations $\{(Y_i, X_i)\}_{i\in\{1, \ldots, n\}}$. Un estimateur peut dépendre des erreurs inconnues ou des paramètres inconnus $\beta$ mais uniquement par le biais des variables observables $\boldY$ et $\boldX$. Un estimateur n'est pas forcément unique en ce sens que pour un même paramètre plusieurs estimateur peuvent exister\\
+Nous allons à présent construire des estimateurs des paramètres $\beta$ et $\sigma^2$. Rappelons qu'un estimateur est toute fonction des observations $\{(Y_i, X_i)\}_{i=1}^n$. Un estimateur peut dépendre des erreurs inconnues ou des paramètres inconnus $\beta$ mais uniquement par le biais des variables observables $\boldY$ et $\boldX$. Un estimateur n'est pas forcément unique en ce sens que pour un même paramètre plusieurs estimateur peuvent exister\\
 Une des méthodes les plus anciennes pour construire des estimateurs est la \emph{méthode des moments}(MM). La MM consiste à construire des estimateurs pour des paramètres définis par des moments théoriques en considérant les contreparties empiriques de ces moments appelées alors moments empiriques. Par exemple si un paramètre est défini au travers d'une espérance(moment théorique), son  estimateur sera construit à partir d'une moyenne(moment empirique) calculée sur les observations\
 Dans le cas présent, les hypothèses \eqref{cond1}, et \eqref{cond2} ou \eqref{cond7} impliquent que la vraie valeur de $\beta$ doit satisfaire,
 \begin{align}
@@ -247,7 +247,7 @@ ou,
 \label{eq9}
 \end{align}
 où l'on note que la matrice $\sumi X_iX_i^\top = \boldX^\top\boldX$ est inversible sous l'hypothèse \eqref{cond4}\footnote{Pour montrer que 
-$\boldX^\top\boldX = \sumi X_iX_i^\top$ notons que,
+$\boldX^\top\boldX = \sumobs X_iX_i^\top$ notons que,
 \begin{align*}
 \boldX^\top\boldX=&
 \begin{pmatrix}
@@ -394,7 +394,7 @@ car sous l'hypothèse \eqref{cond2}, $\Exp(\boldU|\boldX ) = 0$. Nous avons donc
 \Exp\left(\hat{\beta} | \boldX \right) = \beta
 \label{eq13}
 \end{align}
-et par la loi des conditionnements successifs,
+et par la règle des espérances itérées,
 \begin{align*}
 \Exp\left(\hat{\beta}\right) = \Exp\left(\Exp\left(\hat{\beta} | \boldX \right)\right)=\beta
 \end{align*}
@@ -1322,14 +1322,14 @@ La région/intervalle de confiance $\CI_{1-\alpha}$ est une fonction de l'échan
 
 \subsection{Concepts de base}
 Nous poursuivons notre discussion sur le modèle de régression linéaire normal, i.e., le modèle défini par  les hypothèses \ref{cond1}-\ref{cond5}. Soit $\theta\in\Theta\subset \mathbb{R}^d$ un paramètre d'intérêt. Par exemple,
-\begin{itemize}
+\begin{itemize}[label = - ]
 \item Le paramètre $\beta_k$ associé à un régresseur $X_k$, $k=1,2,...,K$. Dans ce cas,
 $\theta = \beta_k$, $d=1$, $\Theta = \mathbb{R}$.
 \item  Un vecteur de $L$ coefficients avec dans ce cas $\theta = (\beta_1, \beta_2,...,\beta_L)^\top$, $d=L$, $\Theta = \mathbb{R}^L$.
 \item La variance des erreurs avec dans ce cas, $\theta = \sigma^2$, $d=1$, $\Theta = \mathbb{R}_{++}$.
 \end{itemize}
 Une hypothèse statistique est une proposition concernant $\theta$. Usuellement, on considère deux hypothèses concurrentes et nous voulons tirer une conclusion, sur la base des données observées, quant à savoir laquelle est vraie. Soit $\Theta_0\subset\Theta$ et  $\Theta_1\subset\Theta$, tels que $\Theta_0 \cap \Theta_1 = \emptyset$, et $\Theta_0 \cup \Theta_1=\Theta$. Les deux hypothèses concurrentes sont,
-\begin{itemize}
+\begin{itemize}[label = - ]
 \item L'\emph{hypothèse nulle} $H_0: \theta\in \Theta_0$. Il s'agit de l'hypothèse tenue comme vraie à moins que les données fournissent suffisamment d'information pour la rejeter.
 \item L'\emph{hypothèse alternative} $H_1: \theta\in \Theta_1$. Il s'agit de l'hypothèse contre laquelle l'hypothèse nulle est testée. Elle sera tenue comme vraie si l'on arrive à la conclusion que l'hypothèse nulle est fausse.
 \end{itemize}
@@ -1338,7 +1338,7 @@ Notons que les sous-ensembles $\Theta_0$ et $\Theta_1$ sont choisis par l'analys
 Lorsque $\Theta_0$ contient un seul élément, on dit que $H_0:\theta\in \Theta_0$ est une \emph{hypothèse simple}. Autrement, on dit que $H_0$ est une \emph{hypothèse composée}. De manière similaire $H_1$ peut être simple ou composée selon que $\Theta_1$ contient ou non un seul élément.\\
 L'analyste doit choisir entre $H_0$ et $H_1$.  La \emph{règle de décision} qui va conduire à accepter ou rejeter $H_0$ s'appuie sur une \emph{statistique de test} qui est une fonction des données(de $\boldX$ et $\boldY$ dans le cas d'un modèle de régression). Soit $S\in \mathcal{S}$ une statistique de test et l'ensemble des valeurs qu'elle peut prendre. Une règle de décision est définie comme une partition de $\mathcal{S}$ en une \emph{région d'acceptation} $\mathcal{A}$ et une \emph{région de rejet}(ou région critique) $\mathcal{R}$. Ces deux régions doivent être disjointes(i.e., $\mathcal{A}\cap\mathcal{R} = \emptyset$) et leur union doit être égale à l'ensemble des valeurs possible pour la statistique $S$(i.e.,  $\mathcal{A}\cup\mathcal{R} = \mathcal{S}$). On rejette $H_0$ lorsque la statistique de test prend des valeurs dans la région de rejet: $S\in\mathcal{R}$. Ainsi les tests peuvent être décrits par leurs règles de décision: rejeter $H_0$ quand $S\in\mathcal{R}$.\\
 Deux types d'erreurs peuvent être faits,
-\begin{itemize}
+\begin{itemize}[label = - ]
 \item L'\emph{erreur de type 1} est de rejeter $H_0$ alors que $H_0$ est vraie.
 \item L'\emph{erreur de type 2} est d'accepter $H_0$ alors que $H_1$ est vraie.
 \end{itemize}
@@ -1574,7 +1574,7 @@ H_0: \mathbf{R}\beta = r\\
 H_1: \mathbf{R}\beta \neq r
 \end{align*}
 où $\mathbf{R}$ est une matrice $(q \times K)$ est $r$ est un vecteur $(r\times 1)$. Par exemple, 
-\begin{itemize}
+\begin{itemize}[label = - ]
 \item $\mathbf{R} = \Id_K$, $r=0$. Dans ce cas on teste que $\beta_1=...=\beta_K=0$.
 \item $\mathbf{R} = \left(
 \begin{array}{cccccccc}
@@ -2182,7 +2182,7 @@ Maintenant, considérons la prédiction d'un point en dehors de la droite de ré
 \begin{align*}
 Y_f = x_f^\top\beta + U_f
 \end{align*}
-supposons aussi que le vecteur $((n+1) \times 1)$, $(\boldU^\top, U_f)^\top$, vérifie,
+où le vecteur $((n+1) \times 1)$, $(\boldU^\top, U_f)^\top$, vérifie,
 \begin{align}
 \left(
 \begin{array}{c}

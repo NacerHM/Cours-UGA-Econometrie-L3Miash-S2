@@ -1,9 +1,9 @@
-PWD /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap
+PWD /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.tex
-OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.log
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.tex
+OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.log
 INPUT ../Preambule.tex
 INPUT ../Preambule.tex
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsart.cls
@@ -389,11 +389,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.aux
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.aux
-OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.aux
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.aux
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.aux
+OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.aux
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
@@ -445,14 +447,14 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.pdf
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.pdf
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -519,8 +521,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.toc
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.toc
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.toc
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
@@ -537,7 +539,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.toc
+OUTPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
@@ -550,9 +552,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmbx5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri9.tfm
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.aux
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
-INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Econometrie_2_UGA_L3Eco_S2/Cours/1_Regression_Lineaire_Recap/1_Regression_Lineaire_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.aux
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
+INPUT /Volumes/GoogleDrive/Mon Drive/Syllabus/Cours-UGA-Econometrie-L3Miash-S2/Cours/1_Regression_Lineaire_et_MCO/1_Regression_Lineaire_et_MCO_Recap.out
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc

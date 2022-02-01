@@ -107,7 +107,8 @@
   linkcolor    = MidnightBlue, %Colour of internal links
   citecolor   = MidnightBlue %Colour of citations
 }
-\newtheorem{theoreme}{Théorème}
+\newtheorem{theoreme}{Théorème}[section]
+\newtheorem*{theoreme*}{Théorème}
 %\newtheorem{conjecture}{Conjecture}[section]
 %\newtheorem{corollary}{Corollary}[section]
 \newtheorem{lemme}{Lemme}[section]
@@ -155,17 +156,23 @@
 %\providecommand{\limp}{\underset{n \rightarrow \infty}{\overset{p}{\longrightarrow}}}
 %\providecommand{\limp}{\underset{n \rightarrow +\infty}{\overset{p.}{\longrightarrow}}}
 %\providecommand{\limp}{\overset{p.}{\longrightarrow}}
+\renewcommand{\to}{\rightarrow}
 \providecommand{\limp}{\overset{p}{\rightarrow}}
+%\providecommand{\limp}{\overset{p}{\to}}
 \providecommand{\limps}{\overset{p.s.}{\rightarrow}}
+%\providecommand{\limps}{\overset{p.s.}{\to}}
 \providecommand{\limd}{\overset{d}{\rightarrow}}
+\providecommand{\limlp}{\overset{L^p}{\rightarrow}}
+%\providecommand{\limd}{\overset{d}{\to}}
 %\providecommand{\limps}{\underset{n \rightarrow +\infty}{\overset{p. s.}{\longrightarrow}}}
 %\providecommand{\limp}{\overset{p}{\longrightarrow}}
 %\providecommand{\limd}{\underset{n \rightarrow +\infty}{\overset{d.}{\longrightarrow}}}
 \providecommand{\approxdist}{\overset{\mathrm{a}}{\sim}}
 \providecommand{\sima}{\overset{\mathrm{a}}{\sim}}
 %\providecommand{\limd}{\overset{d.}{\longrightarrow}}
-\newcommand{\sumobs}{\underset{i=1}{\overset{n}{\sum}}}
-\newcommand{\sumiton}{\underset{i=1}{\overset{n}{\sum}}}
+%\newcommand{\sumobs}{\underset{i=1}{\overset{n}{\sum}}}
+\newcommand{\sumobs}{\sum_{i=1}^n}
+\newcommand{\sumiton}{\sum_{i=1}^n}
 \newcommand{\sumi}{\underset{i=1}{\overset{n}{\sum}}}
 \newcommand{\prodi}{\underset{i=1}{\overset{n}{\prod}}}
 \newcommand{\sumt}{\underset{t=1}{\overset{T}{\sum}}}
@@ -183,7 +190,7 @@
 \newcommand{\limntoinfty}{\underset{n\rightarrow\infty}{\lim}}
 \newcommand{\prodobs}{\underset{i=1}{\overset{n}{\prod}}}
 \newcommand{\sumtoinf}{\underset{i=0}{\overset{\infty}{\sum}}}
-\renewcommand{\to}{{\rightarrow}}
+%\renewcommand{\to}{{\rightarrow}}
 \providecommand{\Lsq}{{\mathcal{L}^2}}
 \providecommand{\En}{\mathbb{E}_n}
 \providecommand{\Gn}{\mathrm{G}_n}
@@ -478,7 +485,7 @@
 %\newtheorem{hist}{History}[section]
 %\newtheorem*{ex*}{Example}
 \theoremstyle{plain}
-\newtheorem{propriete}{Propri\'et\'e}
+\newtheorem{propriete}{Propri\'et\'e}[section]
 \newtheorem{lemma}{Lemma}
 \newtheorem*{lemma*}{Lemma}
 \newtheorem{theorem}{Theorem}
