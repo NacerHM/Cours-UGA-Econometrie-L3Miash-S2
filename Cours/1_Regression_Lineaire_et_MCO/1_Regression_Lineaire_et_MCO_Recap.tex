@@ -198,17 +198,23 @@ Pour l'inférence on suppose parfois que,
 $\boldU | \boldX \sim \mathcal{N}(\mathbf{0}, \Id_n)$
 \label{cond5}
 \end{condition}
-Dans le cas de régresseur fixes, plutôt que \eqref{cond5} il sera supposé que la distribution inconditionnelle des erreurs est normale. Les hypothèses \eqref{cond1}-\eqref{cond5} définissent alors le \emph{modèle de régression linéaire normal} avec dans ce cas,
+Dans le cas de régresseur fixes, plutôt que \eqref{cond5} il sera supposé que la distribution 
+inconditionnelle des erreurs est normale. Les hypothèses \eqref{cond1}-\eqref{cond5} définissent alors le \emph{modèle de régression linéaire normal} avec dans ce cas,
 \begin{align*}
 \boldY|\boldX \sim\mathcal{N}(\boldX\beta, \sigma^2\Id_n)
 \end{align*}
-Remarquons qu'étant donné que les covariances dans \eqref{cond5} sont toutes nulles,  \eqref{cond5} implique l'indépendance des erreurs. Les hypothèses \eqref{cond1}-\eqref{cond4} seules, n'impliquent pas l'indépendance entre les observations. En fait, plusieurs résultats importants n'exigent pas d'observations indépendantes. Néanmoins, nous supposerons parfois l'indépendance  sans la normalité.
+Remarquons qu'étant donné que les covariances dans \eqref{cond5} sont toutes nulles, 
+ \eqref{cond5} implique l'indépendance des erreurs. Les hypothèses \eqref{cond1}-\eqref{cond4} seules, 
+ n'impliquent pas l'indépendance entre les observations. En fait, plusieurs résultats importants n'exigent pas 
+ d'observations indépendantes. Néanmoins, nous supposerons parfois l'indépendance  sans la normalité.
 \begin{condition}
 Les observations $\{(Y_i, X_i)\}_{i=1}^n$ sont i.i.d.
 \label{cond6}
 \end{condition}
 Dans le cas de régresseurs fixes cette hypothèse peut être remplacé par celle d'erreurs, $U_1, ..., U_n$, i.i.d\
-L'hypothèse \eqref{cond2} dit que $\boldU$ est indépendant de $\boldX$ en espérance, ce qui est une hypothèse forte. Cependant, plusieurs résultats importants peuvent être obtenus avec une hypothèse plus faible  d'absence de corrélation.
+L'hypothèse \eqref{cond2} dit que $\boldU$ est indépendant de $\boldX$ en espérance, ce qui est une hypothèse forte. On appelle aussi
+qualifie aussi cette condition, \emph{condition d'exogénéité forte}. Cependant, plusieurs résultats importants peuvent être obtenus avec
+ une hypothèse plus faible  d'absence de corrélation. Celle-ci est qualifiée de \emph{condition d'exogénéité faible}:
 \begin{condition}
 Pour $i=1,2,...,n$, $\Exp(X_iU_i)=0$, et $\Exp(U_i)=0$.
 \label{cond7}
