@@ -1,21 +1,56 @@
 
 \input{../Preambule}
 
+\newcommand{\bxi}{ \boldx_i }
 \usepackage{tikz}
 \usepackage{enumitem}
+\usepackage{txfonts}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+
 
 
 \usepackage{fancyhdr}
+\usetikzlibrary{calc,decorations.pathmorphing,patterns}
+\usepackage{listofitems}
+\tikzstyle{mynode}=[thick,draw=blue,fill=blue!20,circle,minimum size=22]
+\usepackage{amsaddr}
+\usepackage{mathrsfs}
+
+\makeatletter
+
+\pgfdeclaredecoration{penciline}{initial}{
+    \state{initial}[width=+\pgfdecoratedinputsegmentremainingdistance,auto corner on length=1mm,]{
+        \pgfpathcurveto%
+        {% From
+            \pgfqpoint{\pgfdecoratedinputsegmentremainingdistance}
+                            {\pgfdecorationsegmentamplitude}
+        }
+        {%  Control 1
+        \pgfmathrand
+        \pgfpointadd{\pgfqpoint{\pgfdecoratedinputsegmentremainingdistance}{0pt}}
+                        {\pgfqpoint{-\pgfdecorationsegmentaspect\pgfdecoratedinputsegmentremainingdistance}%
+                                        {\pgfmathresult\pgfdecorationsegmentamplitude}
+                        }
+        }
+        {%TO 
+        \pgfpointadd{\pgfpointdecoratedinputsegmentlast}{\pgfpoint{1pt}{1pt}}
+        }
+    }
+    \state{final}{}
+}
+\makeatother
+
 \pagestyle{fancy}
 %\renewcommand{\subsection{mark}[1]{\markright{#1}{}}
 \fancyhead{}
 \fancyfoot{} 
 %\fancyhead[LE,LO]{\tiny{\thepage}}
-\fancyhead[C]{\small\textsc{Économétrie, L3 Miash, S2}}
+\fancyhead[C]{\small\textsc{UGA, L3 MIASH-BDA, S2}}
 %fancyhead[CE,CO]{\tiny{\rightmark}}
-\fancyhead[L]{\small\textsc{UGA, FEG}}
+\fancyhead[L]{\small\textsc{ÉCONOMÉTRIE}}
 \fancyfoot[C]{\small{\thepage}}
-%\fancyfoot[R]{\small \textcopyright \ \  \small\textsc{Michal W. Urdanivia}}
+%\fancyfoot[R]{\small \textcopyright \ \  \small\textsc
 \fancyhead[R]{ \small\textsc{M. Urdanivia}}
 %\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -31,21 +66,25 @@
 \usetikzlibrary{decorations.markings}
 \usetikzlibrary{shapes.misc}
 \usetikzlibrary{shapes}
-%\tikzset{block/.style={draw, rectangle, fill=gray!20, text centered, minimum height = 3em,text width=7em}}
-%\tikzset{empty/.style={draw, rectangle, fill=none, text centered, minimum height = 3em,text width=7em}}
+%\tikzset{block/.style={draw, rectangle, fill=gray!20, 
+%\tikzset{empty/.style={draw, rectangle, fill=none, tex
 %\tikzset{line/.style={draw, -latex'}}
 %\onehalfspace
 
+%\includepdf{trame}
+
 \begin{titlepage}
 \centering
-	%\includegraphics[width=0.15\textwidth]{logoUGA2020.pdf}\par\vspace{1cm}
-	{\scshape\Large \textsc{Économétrie: S2, UGA, L3 Miash}\par}
+	%\includegraphics[width=0.15\textwidth]{logoUGA2020
+    {\scshape\Large \textbf{\textsc{ÉCONOMÉTRIE}}\par}
+	{\scshape\Large \textbf{\textsc{UGA, L3 MIASH-BDA, S2}}\par}
 	\vspace{1cm}
 	%{\scshape\large \textsc{Extremum Estimators(1)}\par}
 	%\vspace{1cm}
-	{\Large\bfseries \textsc{Syllabus} \par}
-    \vspace{1cm}   
-	%{\Large\bfseries \textsc{1: Analyse non asymptotique des Moindres Carrés} \par}
+	{\Large\bfseries \textsc{SYLLABUS} \par}
+   % \vspace{1cm}   
+	%{\Large\bfseries \textsc{RÉCAPITULATIF ET RÉSULTATS NON ASYMPTOTIQUES} \par}
+    %{\Large\bfseries \textsc{EXAMEN(L3 MIASH, S2)} \par}
 	%\vspace{1cm}
 	{(\textsc{Cette version: \today})\par}
 	\vspace{1cm}

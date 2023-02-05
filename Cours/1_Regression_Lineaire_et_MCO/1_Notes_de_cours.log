@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.15)  5 FEB 2023 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.15)  5 FEB 2023 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Syllabus_Econometrie_S2_UGAL3Miash.tex
-(./Syllabus_Econometrie_S2_UGAL3Miash.tex
+**1_Notes_de_cours.tex
+(./1_Notes_de_cours.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(../Preambule.tex
+(../../Preambule.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2015/03/04 v2.20.2
 \linespacing=\dimen102
@@ -2393,91 +2393,91 @@ ep char
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsaddr/amsaddr.sty
 \c@g@author=\count357
 )
-(./Syllabus_Econometrie_S2_UGAL3Miash.aux)
-\openout1 = `Syllabus_Econometrie_S2_UGAL3Miash.aux'.
+(./1_Notes_de_cours.aux)
+\openout1 = `1_Notes_de_cours.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 61.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 61.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 59.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 59.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 59.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 61.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 61.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 61.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 61.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 61.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 61.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 61.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -2519,7 +2519,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 61.
+Package hyperref Info: Link coloring ON on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2529,14 +2529,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count364
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
 
-(./Syllabus_Econometrie_S2_UGAL3Miash.out)
-(./Syllabus_Econometrie_S2_UGAL3Miash.out)
+(./1_Notes_de_cours.out) (./1_Notes_de_cours.out)
 \@outlinefile=\write5
-\openout5 = `Syllabus_Econometrie_S2_UGAL3Miash.out'.
+\openout5 = `1_Notes_de_cours.out'.
 
 \c@lstlisting=\count365
 
@@ -2574,20 +2573,20 @@ LaTeX Info: Redefining \nameref on input line 61.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \degres on input line 61.
-LaTeX Info: Redefining \dots on input line 61.
+LaTeX Info: Redefining \degres on input line 59.
+LaTeX Info: Redefining \dots on input line 59.
 
 Package frenchb.ldf Warning: Please load the "natbib" package
-(frenchb.ldf)                BEFORE babel/frenchb; reported on input line 61.
+(frenchb.ldf)                BEFORE babel/frenchb; reported on input line 59.
 
 Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)             reported on input line 61.
+(frenchb.ldf)             reported on input line 59.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
-(frenchb.ldf)             reported on input line 61.
-LaTeX Info: Redefining \up on input line 61.
-LaTeX Info: Redefining \microtypecontext on input line 61.
+(frenchb.ldf)             reported on input line 59.
+LaTeX Info: Redefining \up on input line 59.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2723,10 +2722,10 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Syll
-abus_Econometrie_S2_UGAL3Miash.toc)
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./1_No
+tes_de_cours.toc)
 \tf@toc=\write6
-\openout6 = `Syllabus_Econometrie_S2_UGAL3Miash.toc'.
+\openout6 = `1_Notes_de_cours.toc'.
 
 
 
@@ -2743,23 +2742,6 @@ Package Fancyhdr Warning: \headheight is too small (8.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 181.
-
- (/usr/local/texlive/2017/texmf-dist/tex/latex/txfonts/t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `txtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(./Syllabus_Econometrie_S2_UGAL3Miash.bbl
-Underfull \hbox (badness 4217) in paragraph at lines 18--21
-[]\T1/txr/m/n/10 (+20) Hansen, Bruce E. 2017.  ``Eco-no-me-trics.''  [][]$\T1/t
-xtt/m/n/10 https : / / www . ssc . wisc . edu / ~bhansen /
- []
-
-)
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
  Make it at least 11.44052pt.
@@ -2767,36 +2749,470 @@ Package Fancyhdr Warning: \headheight is too small (8.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
- (./Syllabus_Econometrie_S2_UGAL3Miash.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
-Package rerunfilecheck Info: File `Syllabus_Econometrie_S2_UGAL3Miash.out' has 
-not changed.
-(rerunfilecheck)             Checksum: EF3D7DAE5A24EB0DCC50B150756CB02B;715.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
+Package hyperref Info: bookmark level for unknown condition defaults to 0 on in
+put line 214.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Package hyperref Info: bookmark level for unknown propriete defaults to 0 on in
+put line 412.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 648.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 648.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 648.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 719--722
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 805--809
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 805--809
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 888.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 888.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 949.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 949.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 949.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1002.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1002.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1015
+
+ []
+
+
+Overfull \hbox (26.13182pt too wide) in paragraph at lines 1043--1046
+\T1/txr/m/n/10 (-20) Pour mon-trer ce ré-sul-tat, no-tons que $[]$ est un es-ti
+-ma-teur li-néaire, et écri-vons $[] \OT1/txr/m/n/10 (-20) = \OML/txmi/m/it/10 
+^^L[] \OT1/txr/m/n/10 (-20) + (\OT1/txr/bx/n/10 X[]M[]U\OT1/txr/m/n/10 (-20) )\
+OML/txmi/m/it/10 =\OT1/txr/m/n/10 (-20) (\OT1/txr/bx/n/10 X[]M[]X[]\OT1/txr/m/n
+/10 (-20) )$\T1/txr/m/n/10 (-20) . 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1064.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 1064.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1064.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1064.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 1103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1103.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1103.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
+Package hyperref Info: bookmark level for unknown lemme defaults to 0 on input 
+line 1141.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+Package hyperref Info: bookmark level for unknown remarque defaults to 0 on inp
+ut line 1362.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 1408.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+Package hyperref Info: bookmark level for unknown exemple defaults to 0 on inpu
+t line 1718.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1749.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1752.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1752.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1752.
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Overfull \hbox (3.72827pt too wide) in paragraph at lines 1800--1802
+\T1/txr/m/n/10 (-20) Dans ce cas, l'es-ti-ma-teur des moindres car-rés de $\OML
+/txmi/m/it/10 ^^L[]$ \T1/txr/m/n/10 (-20) est biaisé, le biais étant donné par 
+$\OT1/txr/m/n/10 (-20) (\OT1/txr/bx/n/10 X[]X[]\OT1/txr/m/n/10 (-20) )[]\OT1/tx
+r/bx/n/10 X[]X[]\OML/txmi/m/it/10 ^^L[]$\T1/txr/m/n/10 (-20) ,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+No file 1_Notes_de_cours.bbl.
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 11.44052pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2259.
+ (./1_Notes_de_cours.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2259.
+
+Package rerunfilecheck Info: File `1_Notes_de_cours.out' has not changed.
+(rerunfilecheck)             Checksum: 00B702B1418DBF2759593152A7D94C5B;2731.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2259.
  ) 
 Here is how much of TeX's memory you used:
- 44136 strings out of 492995
- 825061 string characters out of 6132703
- 1104050 words of memory out of 5000000
- 46541 multiletter control sequences out of 15000+600000
- 78403 words of font info for 194 fonts, out of 8000000 for 9000
+ 44721 strings out of 492995
+ 829866 string characters out of 6132703
+ 1119116 words of memory out of 5000000
+ 46627 multiletter control sequences out of 15000+600000
+ 124378 words of font info for 464 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 57i,11n,92p,10465b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,92p,10450b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on Syllabus_Econometrie_S2_UGAL3Miash.pdf (4 pages, 62631 bytes)
-.
+exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/txfonts/rtxbi.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/txfonts/rtxsc.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/tx
+fonts/txex.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/t
+xsy.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsya.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on 1_Notes_de_cours.pdf (42 pages, 239257 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 56413 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 633 compressed objects within 7 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 78093 words of extra memory for PDF output out of 89155 (max. 10000000)
 
