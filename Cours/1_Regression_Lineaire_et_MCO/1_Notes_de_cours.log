@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.15)  5 FEB 2023 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.15)  7 FEB 2023 08:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./1_Notes_de_cours.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(../../Preambule.tex
+(../Preambule.tex
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2015/03/04 v2.20.2
 \linespacing=\dimen102
@@ -2730,469 +2730,498 @@ tes_de_cours.toc)
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [2]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Package hyperref Info: bookmark level for unknown condition defaults to 0 on in
-put line 214.
-
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [4]
+Package hyperref Info: bookmark level for unknown condition defaults to 0 on in
+put line 213.
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [5]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [6]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Package hyperref Info: bookmark level for unknown propriete defaults to 0 on in
-put line 412.
-
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [8]
+Package hyperref Info: bookmark level for unknown propriete defaults to 0 on in
+put line 411.
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [9]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [10]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [11]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [12]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 648.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 648.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 648.
-
-
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 719--722
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 647.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 647.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 647.
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 805--809
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 805--809
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 718--721
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 804--808
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 888.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 888.
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 888.
+Underfull \hbox (badness 10000) in paragraph at lines 804--808
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 949.
+(hyperref)                removing `math shift' on input line 887.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 949.
+(hyperref)                removing `superscript' on input line 887.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 949.
+(hyperref)                removing `math shift' on input line 887.
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [18]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1002.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1002.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1002.
-
-
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1015
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 948.
 
 
-Overfull \hbox (26.13182pt too wide) in paragraph at lines 1043--1046
-\T1/txr/m/n/10 (-20) Pour mon-trer ce ré-sul-tat, no-tons que $[]$ est un es-ti
--ma-teur li-néaire, et écri-vons $[] \OT1/txr/m/n/10 (-20) = \OML/txmi/m/it/10 
-^^L[] \OT1/txr/m/n/10 (-20) + (\OT1/txr/bx/n/10 X[]M[]U\OT1/txr/m/n/10 (-20) )\
-OML/txmi/m/it/10 =\OT1/txr/m/n/10 (-20) (\OT1/txr/bx/n/10 X[]M[]X[]\OT1/txr/m/n
-/10 (-20) )$\T1/txr/m/n/10 (-20) . 
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 948.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 948.
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1064.
+(hyperref)                removing `math shift' on input line 1001.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sigma' on input line 1064.
+(hyperref)                removing `superscript' on input line 1001.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1064.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1064.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sigma' on input line 1103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1103.
+(hyperref)                removing `math shift' on input line 1001.
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [21]
-Package hyperref Info: bookmark level for unknown lemme defaults to 0 on input 
-line 1141.
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1014
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [22]
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1063.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 1063.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1063.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1063.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\sigma' on input line 1102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1102.
+
+
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [23]
+Package hyperref Info: bookmark level for unknown lemme defaults to 0 on input 
+line 1140.
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [24]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [25]
-Package hyperref Info: bookmark level for unknown remarque defaults to 0 on inp
-ut line 1362.
+Overfull \hbox (28.2103pt too wide) in paragraph at lines 1245--1247
+ \T1/txr/m/n/10.95 (-20) 4.4.\T1/txr/bx/n/10.95 Cas vec-to-riel.[][] \T1/txr/m/
+n/10.95 (-20) Sup-po-sons que l'on s'in-té-resse aux vec-teur des pa-ra-mètres 
+$\OML/txmi/m/it/10.95 ^^L \OT1/txr/m/n/10.95 (-20) = (\OML/txmi/m/it/10.95 ^^L[
+]; ^^L[]; :::; ^^L[]\OT1/txr/m/n/10.95 (-20) )[]$\T1/txr/m/n/10.95 (-20) .
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [26]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [27]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
-nput line 1408.
+Package hyperref Info: bookmark level for unknown remarque defaults to 0 on inp
+ut line 1361.
 
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [28]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [29]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [30]
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 1407.
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [31]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [32]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [33]
-Package hyperref Info: bookmark level for unknown exemple defaults to 0 on inpu
-t line 1718.
-
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [34]
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1749.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 1752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 1752.
-
-
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [35]
-Overfull \hbox (3.72827pt too wide) in paragraph at lines 1800--1802
-\T1/txr/m/n/10 (-20) Dans ce cas, l'es-ti-ma-teur des moindres car-rés de $\OML
-/txmi/m/it/10 ^^L[]$ \T1/txr/m/n/10 (-20) est biaisé, le biais étant donné par 
-$\OT1/txr/m/n/10 (-20) (\OT1/txr/bx/n/10 X[]X[]\OT1/txr/m/n/10 (-20) )[]\OT1/tx
-r/bx/n/10 X[]X[]\OML/txmi/m/it/10 ^^L[]$\T1/txr/m/n/10 (-20) ,
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [36]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [37]
+Package hyperref Info: bookmark level for unknown exemple defaults to 0 on inpu
+t line 1717.
+
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [38]
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [39]
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1748.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1748.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1748.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1751.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1751.
+
+
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [40]
-No file 1_Notes_de_cours.bbl.
 
 Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 11.44052pt.
+ Make it at least 12.64503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [41]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2259.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2259.
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+No file 1_Notes_de_cours.bbl.
+
+Package Fancyhdr Warning: \headheight is too small (8.0pt): 
+ Make it at least 12.64503pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2258.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2258.
  (./1_Notes_de_cours.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2259.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2259.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2258.
 
 Package rerunfilecheck Info: File `1_Notes_de_cours.out' has not changed.
-(rerunfilecheck)             Checksum: 00B702B1418DBF2759593152A7D94C5B;2731.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2259.
+(rerunfilecheck)             Checksum: 88EF58EDAAF1639367121F1AD9B32051;2659.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2258.
  ) 
 Here is how much of TeX's memory you used:
- 44721 strings out of 492995
- 829866 string characters out of 6132703
- 1119116 words of memory out of 5000000
- 46627 multiletter control sequences out of 15000+600000
- 124378 words of font info for 464 fonts, out of 8000000 for 9000
+ 44687 strings out of 492995
+ 829737 string characters out of 6132703
+ 1116293 words of memory out of 5000000
+ 46615 multiletter control sequences out of 15000+600000
+ 120864 words of font info for 444 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 57i,19n,92p,10450b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,19n,92p,10447b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/txfonts/rtxbi.pfb></usr/local/texlive/2017/t
@@ -3209,10 +3238,10 @@ l/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on 1_Notes_de_cours.pdf (42 pages, 239257 bytes).
+Output written on 1_Notes_de_cours.pdf (48 pages, 245898 bytes).
 PDF statistics:
- 710 PDF objects out of 1000 (max. 8388607)
- 633 compressed objects within 7 object streams
- 191 named destinations out of 1000 (max. 500000)
- 78093 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 648 compressed objects within 7 object streams
+ 196 named destinations out of 1000 (max. 500000)
+ 78085 words of extra memory for PDF output out of 89155 (max. 10000000)
 
