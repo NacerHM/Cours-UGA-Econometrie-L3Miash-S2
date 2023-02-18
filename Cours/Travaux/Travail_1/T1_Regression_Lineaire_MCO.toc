@@ -1,3 +1,0 @@
-\babel@toc {french}{}
-\contentsline {section}{\tocsection {}{1}{Propri\IeC {\'e}t\IeC {\'e}s de l'estimateur des MCO}}{2}{section.1}
-\contentsline {section}{\tocsection {}{2}{Application}}{2}{section.2}
