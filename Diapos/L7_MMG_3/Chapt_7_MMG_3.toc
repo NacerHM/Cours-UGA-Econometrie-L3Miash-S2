@@ -1,0 +1,7 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Approche g\IeC {\'e}n\IeC {\'e}rale}{3}{0}{1}
+\beamer@sectionintoc {2}{Syst\IeC {\`e}mes d\IeC {\textquoteright }\IeC {\'e}quations lin\IeC {\'e}aires}{15}{0}{2}
+\beamer@sectionintoc {3}{Estimateurs MMG optimaux dans les syst\IeC {\`e}mes d\IeC {\textquoteright }\IeC {\'e}quations lin\IeC {\'e}aires}{28}{0}{3}
+\beamer@sectionintoc {4}{Estimation \IeC {\guillemotleft } en syst\IeC {\`e}me \IeC {\guillemotright } versus \IeC {\guillemotleft } \IeC {\'e}quation par \IeC {\'e}quation \IeC {\guillemotright }}{42}{0}{4}
+\beamer@sectionintoc {5}{Equations simultan\IeC {\'e}es et estimateur des 3MC}{57}{0}{5}
+\beamer@sectionintoc {6}{R\IeC {\'e}gressions empil\IeC {\'e}es et estimateur SUR}{65}{0}{6}

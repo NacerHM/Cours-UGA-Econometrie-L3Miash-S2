@@ -1,0 +1,173 @@
+%\documentclass[ignorenonframetext, compress, 9pt, xcolor=svgnames]{beamer} 
+\input{../Config_diapos_b}
+  \usepackage{eso-pic}
+%\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+%\put(\LenToUnit{0.85\paperwidth},\LenToUnit{0.85\paperheight}){#1}}}
+%\AddToShipoutPictureFG{
+ % \AtPagemyUpperLeft{{\includegraphics[width=0.85cm,keepaspectratio]{logoUGA2020.pdf}}}
+%}%
+\setbeamercolor{title}{fg=MidnightBlue}
+\setbeamertemplate{section page}
+{
+    \begin{centering}
+    \begin{beamercolorbox}[sep=11pt,center]{part title}
+    \usebeamerfont{section title}\thesection.~\insertsection\par
+    \end{beamercolorbox}
+    \end{centering}
+}
+\title[Regression linéaire]{\textbf{ \'ECONOM\'ETRIE} \\ (UGA S2) }
+\subtitle{\textbf{CHAPITRE 6: \\ MOMENTS CONDITIONNELS, CHOIX DES MOMENTS, INSTRUMENTS EFFICACES}}
+\date{\today}
+\author{Michal W. Urdanivia\inst{*}}
+\institute{\inst{*}Universit\'e de Grenoble Alpes, Facult\'e d'\'Economie, GAEL, \\e-mail: \href{mailto:michal.wong-urdanivia@univ-grenoble-alpes.fr}{michal.wong-urdanivia@univ-grenoble-alpes.fr}}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{\textbf{Contenu}}
+\tableofcontents
+%Ce cours s'appuie sur les notes de cours d'Alain Carpentier à l'ENSAI en 2010-2011. 
+\end{frame}
+
+\section{Motivation}
+\frame{\sectionpage}
+\mode<all>
+
+\inputslide{A2MMG}{2}
+\inputslide{A2MMG}{3}
+\inputslide{A2MMG}{4}
+\inputslide{A2MMG}{5}
+\inputslide{A2MMG}{6}
+\inputslide{A2MMG}{7}
+\inputslide{A2MMG}{8}
+\inputslide{A2MMG}{9}
+\inputslide{A2MMG}{10}
+\inputslide{A2MMG}{11}
+\inputslide{A2MMG}{12}
+\section{La propriété des instruments estimés}
+\frame{\sectionpage}
+\mode<all>
+\inputslide{A2MMG}{13}
+\inputslide{A2MMG}{14}
+\inputslide{A2MMG}{15}
+\inputslide{A2MMG}{16}
+\inputslide{A2MMG}{17}
+\inputslide{A2MMG}{18}
+\inputslide{A2MMG}{19}
+\inputslide{A2MMG}{20}
+\section{Instruments efficaces, cas scalaire}
+\frame{\sectionpage}
+\mode<all>
+\inputslide{A2MMG}{21}
+\inputslide{A2MMG}{22}
+\inputslide{A2MMG}{23}
+\inputslide{A2MMG}{24}
+\inputslide{A2MMG}{25}
+\inputslide{A2MMG}{26}
+\inputslide{A2MMG}{27}
+\inputslide{A2MMG}{28}
+\inputslide{A2MMG}{29}
+\inputslide{A2MMG}{30}
+\inputslide{A2MMG}{31}
+\inputslide{A2MMG}{32}
+\inputslide{A2MMG}{33}
+\inputslide{A2MMG}{34}
+\inputslide{A2MMG}{35}
+\inputslide{A2MMG}{36}
+\inputslide{A2MMG}{37}
+\inputslide{A2MMG}{38}
+\inputslide{A2MMG}{39}
+\inputslide{A2MMG}{40}
+\inputslide{A2MMG}{41}
+\inputslide{A2MMG}{42}
+\inputslide{A2MMG}{43}
+\inputslide{A2MMG}{44}
+\inputslide{A2MMG}{45}
+\inputslide{A2MMG}{46}
+\inputslide{A2MMG}{47}
+\inputslide{A2MMG}{48}
+\inputslide{A2MMG}{49}
+\inputslide{A2MMG}{50}
+\inputslide{A2MMG}{51}
+\inputslide{A2MMG}{52}
+\inputslide{A2MMG}{53}
+\inputslide{A2MMG}{54}
+\inputslide{A2MMG}{55}
+\inputslide{A2MMG}{56}
+\inputslide{A2MMG}{57}
+\inputslide{A2MMG}{58}
+\inputslide{A2MMG}{59}
+\inputslide{A2MMG}{60}
+\inputslide{A2MMG}{61}
+\inputslide{A2MMG}{62}
+\inputslide{A2MMG}{63}
+\inputslide{A2MMG}{64}
+\mode<all>{\usebackgroundtemplate{}}
+\section{Instruments efficaces, cas multivarié}
+\frame{\sectionpage}
+\mode<all>
+\inputslide{A2MMG}{65}
+\inputslide{A2MMG}{66}
+\inputslide{A2MMG}{67}
+\inputslide{A2MMG}{68}
+\inputslide{A2MMG}{69}
+\inputslide{A2MMG}{70}
+\inputslide{A2MMG}{71}
+\inputslide{A2MMG}{72}
+\inputslide{A2MMG}{73}
+\inputslide{A2MMG}{74}
+\inputslide{A2MMG}{75}
+\inputslide{A2MMG}{76}
+\inputslide{A2MMG}{77}
+\inputslide{A2MMG}{78}
+\inputslide{A2MMG}{79}
+\inputslide{A2MMG}{80}
+\inputslide{A2MMG}{81}
+\inputslide{A2MMG}{82}
+\inputslide{A2MMG}{83}
+\inputslide{A2MMG}{84}
+\inputslide{A2MMG}{85}
+\inputslide{A2MMG}{86}
+\inputslide{A2MMG}{87}
+\inputslide{A2MMG}{88}
+\inputslide{A2MMG}{89}
+\inputslide{A2MMG}{90}
+\inputslide{A2MMG}{91}
+\inputslide{A2MMG}{92}
+\inputslide{A2MMG}{93}
+\inputslide{A2MMG}{94}
+\inputslide{A2MMG}{95}
+\inputslide{A2MMG}{96}
+\inputslide{A2MMG}{97}
+\inputslide{A2MMG}{98}
+\inputslide{A2MMG}{99}
+\inputslide{A2MMG}{100}
+\inputslide{A2MMG}{101}
+\mode<all>{\usebackgroundtemplate{}}
+\section{Instruments efficaces et MMG}
+\frame{\sectionpage}
+\mode<all>
+\inputslide{A2MMG}{102}
+\inputslide{A2MMG}{103}
+\inputslide{A2MMG}{104}
+\inputslide{A2MMG}{105}
+\inputslide{A2MMG}{106}
+\inputslide{A2MMG}{107}
+\inputslide{A2MMG}{108}
+\inputslide{A2MMG}{109}
+\mode<all>{\usebackgroundtemplate{}}
+% \mode*
+
+
+
+%\begin{frame}[allowframebreaks]\frametitle{Références.}
+
+%\bibliographystyle{jpe}
+%\bibliography{../../Biblio}
+
+%\end{frame}
+\end{document}

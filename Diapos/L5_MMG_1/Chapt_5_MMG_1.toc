@@ -1,0 +1,7 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Motivation}{3}{0}{1}
+\beamer@sectionintoc {2}{Principe d\IeC {\textquoteright }estimation de la MMG}{25}{0}{2}
+\beamer@sectionintoc {3}{ D\IeC {\'e}finition et propri\IeC {\'e}t\IeC {\'e}s des estimateurs de la MMG}{31}{0}{3}
+\beamer@sectionintoc {4}{Les estimateurs des 2MC en tant qu\IeC {\textquoteright }estimateurs de la MMG}{71}{0}{4}
+\beamer@sectionintoc {5}{M\IeC {\'e}thode des Moment G\IeC {\'e}n\IeC {\'e}ralis\IeC {\'e}e et M\IeC {\'e}thode des Moments}{91}{0}{5}
+\beamer@sectionintoc {6}{Le test de sur-identification}{95}{0}{6}
