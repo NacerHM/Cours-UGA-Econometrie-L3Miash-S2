@@ -1,5 +1,5 @@
-numpy == 1.20.1
-pandas==1.2.4
-session_info==1.0.0
-scikit-learn >= 0.24.0
-statsmodels==0.12.2
+numpy
+pandas
+session_info
+scikit-learn
+statsmodels
